@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Web Designer / Front-end Portfolio">
+  <title>Portfolio | Zhang XY</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="トップへ">ZHANG's PORTFOLIO<span>.</span></a>
+    <button class="menu-toggle" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="global-nav" aria-label="メインナビゲーション">
+      <a href="#about">ABOUT</a>
+      <div class="nav-dropdown">
+        <a href="#works" class="nav-dropdown-trigger">
+          WORKS
+          <span class="dropdown-arrow">⌄</span>
+        </a>
+
+        <div class="nav-dropdown-menu">
+          <a href="works/wajo-services.html">Webサイト実装</a>
+          <a href="works/wajo-agri.html">Webサイト制作</a>
+          <a href="works/solar-lp.html">ランディングページ制作</a>
+          <a href="works/banners.html">バナー制作</a>
+        </div>
+      </div>
+      <a href="#practice">PRACTICE</a>
+      <a href="#skills">SKILLS</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">WEB DESIGN / FRONT-END</p>
+        <h1>Web制作を、<br>デザインから実装まで。</h1>
+        <p class="hero-lead">独学で身につけた知識と約5年の実務経験を活かし、Webサイト・ランディングページのデザインからコーディングまで幅広く取り組んできました。</p>
+        <a class="text-link" href="#works">制作実績を見る <span>↘</span></a>
+      </div>
+      <div class="hero-visual reveal" aria-label="グラフィック">
+        <div class="visual-ring ring-one"></div>
+        <div class="visual-ring ring-two"></div>
+        <div class="visual-block">
+          <img src="images/home/works0.png" alt="グラフィック">
+        </div>
+        <p class="visual-caption">DESIGN<br>WITH PURPOSE</p>
+      </div>
+      <div class="hero-bottom">
+        <span>OSAKA, JAPAN</span>
+        <span>SCROLL TO EXPLORE <i>↓</i></span>
+      </div>
+    </section>
+
+    <section class="intro section-wrap section-space" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>ABOUT ME</h2>
+      </div>
+      <div class="intro-content reveal">
+        <p class="intro-statement">独学で学び、<br>実務を通して磨いてきた<br>Web制作のスキル。</p>
+        <div class="intro-description">
+          <p>Web制作に関する専門教育ではなく、興味をきっかけに独学でHTML・CSS・JavaScriptなどを学び、実務の中で知識と技術を身につけてきました。</p>
+          <p>前職では約5年間、企業サイトやLPのデザイン・コーディング、WordPressでのサイト構築、公開後の更新・保守などを担当。必要な技術を自ら調べ、試行錯誤しながら形にすることを大切にしています。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="works section-wrap section-space" id="works">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / SELECTED WORKS</p>
+        <h2>WORKS</h2>
+        <p class="section-note">実務で担当したWebサイト・ランディングページの一部です。</p>
+      </div>
+      <div class="work-grid">
+        <a class="work-card reveal" href="works/wajo-services.html">
+          <div class="work-thumb thumb-dark"><span class="thumb-label">FRONT-END IMPLEMENTATION</span>
+            <div class="mock-browser">
+              <img src="images/home/works1.png" alt="FRONT-END IMPLEMENTATION">
+            </div><span class="thumb-number">01</span>
+          </div>
+          <div class="work-meta">
+            <div>
+              <p class="work-category">WEBSITE / IMPLEMENTATION</p>
+              <h3>Webサイト実装</h3>
+            </div><span class="arrow-circle">↗</span>
+          </div>
+          <p class="work-summary">支給されたデザインをもとに、WordPress構築・コーディング・レスポンシブ対応を担当。</p>
+        </a>
+        <a class="work-card reveal" href="works/wajo-agri.html">
+          <div class="work-thumb thumb-light"><span class="thumb-label">DESIGN & DEVELOPMENT</span>
+            <div class="mock-browser">
+              <img src="images/home/works2.png" alt="DESIGN & DEVELOPMENT">
+            </div><span class="thumb-number">02</span>
+          </div>
+          <div class="work-meta">
+            <div>
+              <p class="work-category">WEBSITE / DESIGN & CODING</p>
+              <h3>Webサイト制作</h3>
+            </div><span class="arrow-circle">↗</span>
+          </div>
+          <p class="work-summary">サイト構成・デザインからコーディングまで、一貫して担当。</p>
+        </a>
+        <a class="work-card reveal" href="works/solar-lp.html">
+          <div class="work-thumb thumb-gray"><span class="thumb-label">LANDING PAGES</span>
+            <div class="mock-browser">
+              <img src="images/home/works3.png" alt="LANDING PAGES">
+            </div><span class="thumb-number">03</span>
+          </div>
+          <div class="work-meta">
+            <div>
+              <p class="work-category">LP / DESIGN & CODING</p>
+              <h3>ランディングページ制作</h3>
+            </div><span class="arrow-circle">↗</span>
+          </div>
+          <p class="work-summary">複数のLPについて、デザインからコーディングまで一貫して担当。</p>
+        </a>
+        <a class="work-card reveal" href="works/banners.html">
+          <div class="work-thumb thumb-gray banner-thumb">
+            <span class="thumb-label">BANNER DESIGN</span>
+            <div class="mock-browser">
+              <img src="images/home/works4.png" alt="BANNER DESIGN">
+            </div>
+            <span class="thumb-number">04</span>
+          </div>
+          <div class="work-meta">
+            <div>
+              <p class="work-category">BANNER / DESIGN</p>
+              <h3>バナー制作</h3>
+            </div>
+            <span class="arrow-circle">↗</span>
+          </div>
+          <p class="work-summary">さまざまな用途・サイズのWebバナーをデザイン・制作。</p>
+        </a>
+
+      </div>
+    </section>
+
+    <section class="practice section-wrap section-space" id="practice">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / PRACTICE WORKS</p>
+        <h2>PERSONAL DESIGN</h2>
+        <p class="section-note">自主制作・デザイン練習として取り組んだ作品です。</p>
+      </div>
+      <article class="practice-card reveal">
+
+        <div class="practice-slider" data-slider2>
+
+          <div class="practice-slides">
+            <a class="practice-slide active" href="images/practice/design1.webp" data-lightbox>
+              <img src="images/practice/design1.webp" alt="デザイン1">
+            </a>
+
+            <a class="practice-slide" href="images/practice/design2.webp" data-lightbox>
+              <img src="images/practice/design2.webp" alt="デザイン2">
+            </a>
+
+            <a class="practice-slide" href="images/practice/design3.webp" data-lightbox>
+              <img src="images/practice/design3.webp" alt="デザイン3">
+            </a>
+          </div>
+
+          <button class="practice-arrow practice-prev" type="button" aria-label="前の画像">←</button>
+
+          <button class="practice-arrow practice-next" type="button" aria-label="次の画像">→</button>
+
+          <div class="practice-pagination">
+            <span class="current">01</span>
+            <span class="pagination-line"></span>
+            <span class="total">03</span>
+          </div>
+
+          <span class="practice-zoom">CLICK TO ENLARGE ↗</span>
+        </div>
+
+        <div class="practice-copy">
+          <p class="work-category">WEB DESIGN / PERSONAL PRACTICE</p>
+
+          <h3>Website Design</h3>
+
+          <p class="practice-description">
+            サイト全体の構成・レイアウト・ビジュアルを考案した自主制作デザインです。
+            ブランドを意識した配色や写真の選定、商品紹介・店舗情報などのコンテンツ設計を行いました。
+          </p>
+
+        </div>
+
+      </article>
+      <p class="works-footnote">※ 自主制作作品です。実案件としての制作物とは区別して掲載しています。</p>
+    </section>
+
+    <section class="skills section-wrap section-space" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / SKILLS</p>
+        <h2>WHAT I DO</h2>
+      </div>
+      <div class="skill-list">
+        <article class="skill-row reveal"><span class="skill-no">01</span>
+          <div>
+            <h3>Web Design</h3>
+            <p>Webサイト・LPの画面設計、ビジュアルデザイン、バナー制作</p>
+          </div><span class="skill-tools">Photoshop / Illustrator</span>
+        </article>
+        <article class="skill-row reveal"><span class="skill-no">02</span>
+          <div>
+            <h3>Front-end Coding</h3>
+            <p>デザインをもとにしたレスポンシブ対応、UI・アニメーション実装</p>
+          </div><span class="skill-tools">HTML / CSS / JavaScript / jQuery</span>
+        </article>
+        <article class="skill-row reveal"><span class="skill-no">03</span>
+          <div>
+            <h3>WordPress</h3>
+            <p>テーマの調整、既存サイトの改修、コンテンツ更新・運用</p>
+          </div><span class="skill-tools">WordPress / PHP</span>
+        </article>
+        <article class="skill-row reveal"><span class="skill-no">04</span>
+          <div>
+            <h3>Maintenance</h3>
+            <p>公開後のページ改善、情報更新、表示・動作確認</p>
+          </div><span class="skill-tools">Website Operation</span>
+        </article>
+      </div>
+      <div class="tools-strip reveal"><span>TOOLS & TECHNOLOGIES</span>
+        <p>HTML5　 CSS3　 JavaScript　 jQuery　 WordPress　 PHP　 SQL　 Photoshop　 Illustrator</p>
+      </div>
+    </section>
+
+    <section class="contact section-wrap section-space" id="contact">
+      <div class="contact-inner reveal">
+        <h2>ご覧いただき<br>ありがとうございます。</h2>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap">
+    <a class="logo" href="#top">PORTFOLIO<span>.</span></a>
+    <p>© <span id="year"></span> ZHANG's Web Portfolio</p>
+    <a href="#top" class="back-top">BACK TO TOP ↑</a>
+  </footer>
+</body>
+
+</html>

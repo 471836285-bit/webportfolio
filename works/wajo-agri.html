@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Webサイト制作 | Portfolio</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/project.css">
+  <script src="../js/main.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header"><a class="logo" href="../index.html">ZHANG's PORTFOLIO<span>.</span></a><button
+      class="menu-toggle" aria-label="メニューを開く" aria-expanded="false"><span></span><span></span></button>
+    <nav class="global-nav" aria-label="メインナビゲーション"><a href="../index.html#about">ABOUT</a>
+      <div class="nav-dropdown">
+        <a href="../index.html#works" class="nav-dropdown-trigger">
+          WORKS
+          <span class="dropdown-arrow">⌄</span>
+        </a>
+
+        <div class="nav-dropdown-menu">
+          <a href="./wajo-services.html">Webサイト実装</a>
+          <a href="./wajo-agri.html">Webサイト制作</a>
+          <a href="./solar-lp.html">ランディングページ制作</a>
+          <a href="./banners.html">バナー制作</a>
+        </div>
+      </div>
+      <a href="../index.html#practice">PRACTICE</a><a href="../index.html#skills">SKILLS</a>
+    </nav>
+  </header>
+  <main class="project-page section-wrap"><a class="back-link" href="../index.html#works">← BACK TO WORKS</a>
+    <p class="eyebrow">WORK 02 / DESIGN & DEVELOPMENT</p>
+    <h1>Webサイト制作</h1>
+    <p class="project-lead">サイト構成・デザインからコーディングまで、一貫して担当。</p>
+    <div class="project-info">
+      <section>
+        <h2>PROJECT OVERVIEW</h2>
+        <p>
+          営農型太陽光発電に関する情報を紹介するWebサイト。サイト全体の構成・デザインからHTML・CSS・JavaScriptによる実装まで担当しました。WordPressを使用せず、サーバー上に直接サイトを構築し、レイアウト設計、動的表現、スマートフォン対応まで行っています。
+        </p>
+      </section>
+      <aside>
+        <dl>
+          <dt>担当範囲</dt>
+          <dd>構成 / デザイン / コーディング / 動的演出 / レスポンシブ対応</dd>
+          <dt>制作体制</dt>
+          <dd>個人担当（デザイン・実装）</dd>
+          <dt>使用技術</dt>
+          <dd>HTML / CSS / JavaScript</dd>
+        </dl>
+      </aside>
+    </div>
+    <section class="project-section">
+      <div class="project-section-head">
+        <h2><span class="eyebrow">WEB SITE</span><br>Webサイト全体</h2>
+        <p>DESIGN & DEVELOPMENT</p>
+      </div>
+      <p class="project-url"><a href="https://wajo-holdings.jp/agri/" target="_blank"
+          rel="noopener">https://wajo-holdings.jp/agri/ ↗</a></p>
+      <div class="screenshot-pair">
+        <figure class="screenshot-slot">
+          <div class="screenshot-frame desktop">
+            <img src="../images/works/agri-pc.png" alt="和上農業関連サイトのPC表示スクリーンショット">
+          </div>
+          <figcaption>PC / Desktop</figcaption>
+        </figure>
+        <figure class="screenshot-slot">
+          <div class="sp-slider" data-slider aria-label="スマートフォン表示のスクリーンショット">
+            <div class="sp-slider-window">
+              <div class="sp-slider-track" data-track>
+                <div class="sp-slide" data-slide>
+                  <div class="sp-image-frame">
+                    <img src="../images/works/agri-sp1.png" alt="和上農業関連サイトのスマートフォン表示スクリーンショット 01">
+                  </div>
+                </div>
+                <div class="sp-slide" data-slide>
+                  <div class="sp-image-frame">
+                    <img src="../images/works/agri-sp2.png" alt="和上農業関連サイトのスマートフォン表示スクリーンショット 02">
+                  </div>
+                </div>
+                <div class="sp-slide" data-slide>
+                  <div class="sp-image-frame">
+                    <img src="../images/works/agri-sp3.png" alt="和上農業関連サイトのスマートフォン表示スクリーンショット 03">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sp-slider-controls">
+              <button class="sp-arrow" type="button" data-prev aria-label="前の画像">←</button>
+              <div class="sp-dots" data-dots aria-label="画像を選択"></div>
+              <span class="sp-count" data-count>01 / 03</span>
+              <button class="sp-arrow" type="button" data-next aria-label="次の画像">→</button>
+            </div>
+          </div>
+          <figcaption>SP / Mobile</figcaption>
+          </figure>
+      </div>
+
+    </section>
+    <a class="next-project" href="solar-lp.html">NEXT PROJECT <span>ランディングページ制作 ↗</span></a>
+  </main>
+  <footer class="site-footer section-wrap"><a class="logo" href="../index.html">PORTFOLIO<span>.</span></a>
+    <p>© <span id="year"></span> Web Portfolio</p><a href="../index.html#works" class="back-top">ALL WORKS ↑</a>
+  </footer>
+</body>
+
+</html>
